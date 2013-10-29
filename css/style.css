@@ -1,0 +1,34 @@
+/* reset */
+
+html, body, address, blockquote, del, div, h1, h2, h3, h4, h5, h6, hr, ins, noscript, p, pre, dl, dt, dd, li, ol, ul, table, caption, colgroup, col, thead, tfoot, tbody, tr, td, th, form, button, fieldset, legend, label, select, optgroup, option, textarea, a, bdo, br, img, map, area, object, param, q, script, span, sub, sup, abbr, acronym, cite, code, del, dfn, em, ins, kbd, samp, strong, var, b, big, i, small, tt{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline;}
+ol, ul{list-style:none;}
+th{text-align:left;}
+table{border-collapse:collapse;}
+
+
+
+#container { margin: 10px auto; height:600px; width:1000px; background-color: white;}
+#category-list {width:100px; height: 500px; float:left; font-size:12px;}
+#ratings { width: 700px; float:left;}
+#header {height:30px; font-family:Helvetica; font-size:20px;text-align:center; border-bottom: solid; border-width: 1px; }
+#data {width:160px;font-size: 12px;padding:10px;}
+#databox{float:left; position: relative; top:30%;}
+li:hover {background-color: #bdc3c7;}
+li {padding:5px; margin:5px; background-color:#1abc9c; text-align: center; border-radius:2px;}
+
+li a {text-decoration: none; color:black;}
+
+.axis line,
+.axis path{
+	fill: none;
+	shape-rendering: crispEdges;
+	stroke: black;
+}
+.axis text{
+	font-family:sans-serif;
+	font-size:12px;
+}
+
+.tooltip {font-size:12px; background-color:#eee;padding:5px; border-radius:2px;}
+
+#footer{font-size:10px;}
